@@ -1,17 +1,13 @@
 ## Common NFX Config ##
 
-# Superuser
-SUPERUSER_EMBEDDED := true
-SUPERUSER_PACKAGE_PREFIX := com.android.settings.nfx.superuser
-
+# Root
 PRODUCT_PACKAGES += \
-	Superuser \
 	su
 
-NFX_VERSION = 6.0
+NFX_VERSION = MM6.0
 
 PRODUCT_PROPERTY_OVERRIDES += \
-	persist.sys.root_access=3
+	persist.sys.root_access=1
 
 # Boot animation
 PRODUCT_COPY_FILES += \
@@ -43,7 +39,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
 	CellBroadcastReceiver \
-	Launcher3
+	Launcher3 \
+    Terminal
 
 # Chromium Prebuilt
 ifeq ($(PRODUCT_PREBUILT_WEBVIEWCHROMIUM),yes)
