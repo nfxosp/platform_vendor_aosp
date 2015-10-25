@@ -8,6 +8,8 @@ PRODUCT_PACKAGES += \
 	Superuser \
 	su
 
+NFX_VERSION = 6.0
+
 PRODUCT_PROPERTY_OVERRIDES += \
 	persist.sys.root_access=3
 
