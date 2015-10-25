@@ -40,7 +40,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
 	CellBroadcastReceiver \
 	Launcher3 \
-    Terminal
+    Terminal \
+    Apollo
 
 # Chromium Prebuilt
 ifeq ($(PRODUCT_PREBUILT_WEBVIEWCHROMIUM),yes)
