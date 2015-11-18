@@ -4,7 +4,7 @@
 PRODUCT_PACKAGES += \
 	su
 
-NFX_VERSION = LP5.1
+NFX_VERSION = lp5.1
 
 PRODUCT_PROPERTY_OVERRIDES += \
 	persist.sys.root_access=1
