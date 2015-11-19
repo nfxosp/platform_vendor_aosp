@@ -41,7 +41,8 @@ PRODUCT_PACKAGES += \
 	CellBroadcastReceiver \
 	Launcher3 \
     Terminal \
-    Apollo
+    Apollo \
+    messaging
 
 # Chromium Prebuilt
 ifeq ($(PRODUCT_PREBUILT_WEBVIEWCHROMIUM),yes)
